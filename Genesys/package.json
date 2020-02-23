@@ -1,0 +1,26 @@
+{
+  "name": "genesys",
+  "version": "1.0.0",
+  "description": "A smart IVR system for Daksh Hackathon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "IVR"
+  ],
+  "author": "Aravind Srinivasan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dialogflow": "^1.2.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "socket.io": "^2.3.0",
+    "twilio": "^3.39.5",
+    "uuid": "^3.4.0",
+    "ws": "^7.2.1"
+  }
+}
